@@ -5,12 +5,11 @@ echo='echo -e' && [ -n "$(echo -e|grep e)" ] && echo=echo
 #[ -z "$1" ] && test=0 || test=$1
 
 echo "***********************************************"
-echo "**                 欢迎使用                  **"
-echo "**                ShellClash                 **"
-echo "**                中國遠徵                  **"
+echo "**                 中國遠徵                  **"
 echo "***********************************************"
 
 [ -f "/etc/storage/started_script.sh" ] && systype=Padavan && initdir='/etc/storage/started_script.sh'
+[ -d "/jffs/scripts" ] && systype=asusrouter && initdir='/jffs/scripts/net-start'
 [ -f "/jffs/.asusrouter" ] && systype=asusrouter && initdir='/jffs/.asusrouter'
 #检查root权限
 if [ "$USER" != "root" -a -z "$systype" ];then
@@ -195,7 +194,7 @@ fi
 #输出
 $echo "最新版本：\033[32m$release_new\033[0m"
 echo -----------------------------------------------
-$echo "\033[44m如遇问题欢迎反馈：\033[42;30m msg.ssss.fun \033[0m"
+$echo "\033[44m如遇问题请加TG群反馈：\033[42;30m t.me/clashfm \033[0m"
 $echo "\033[37m支持各种基于openwrt的路由器设备"
 $echo "\033[33m支持Debian、Centos等标准Linux系统\033[0m"
 
