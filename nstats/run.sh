@@ -1,7 +1,7 @@
 #!/bin/bash
 ## ==============================================================================================
 ## 流量统计脚本
-## USAGE: bash <(wget --no-check-certificate -qO- 'https://shell.ssss.fun/nstats/shell.sh') eth0
+## USAGE: bash <(wget --no-check-certificate -qO- 'https://shell.ssss.fun/nstats/run.sh') eth0
 ## Website: https://i.ssss.fun
 ## Powered By YY-ZHENG
 ## 中國遠徵提供技术支持
