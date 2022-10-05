@@ -360,7 +360,7 @@ if [[ -n "$tmpDIST" ]]; then
         [[ "$isDigital" == '9' ]] && DIST='stretch';
         [[ "$isDigital" == '10' ]] && DIST='buster';
         [[ "$isDigital" == '11' ]] && DIST='bullseye';
-        # [[ "$isDigital" == '12' ]] && DIST='bookworm';
+        [[ "$isDigital" == '12' ]] && DIST='bookworm';
       }
     }
     LinuxMirror=$(selectMirror "$Relese" "$DIST" "$VER" "$tmpMirror")
@@ -377,7 +377,7 @@ if [[ -n "$tmpDIST" ]]; then
         [[ "$isDigital" == '16.04' ]] && DIST='xenial';
         [[ "$isDigital" == '18.04' ]] && DIST='bionic';
         [[ "$isDigital" == '20.04' ]] && DIST='focal';
-        # [[ "$isDigital" == '22.04' ]] && DIST='jammy';
+        [[ "$isDigital" == '22.04' ]] && DIST='jammy';
       }
     }
     LinuxMirror=$(selectMirror "$Relese" "$DIST" "$VER" "$tmpMirror")
@@ -650,7 +650,7 @@ d-i user-setup/allow-password-weak boolean true
 d-i user-setup/encrypt-home boolean false
 
 d-i clock-setup/utc boolean true
-d-i time/zone string US/Eastern
+d-i time/zone string Asia/Shanghai
 d-i clock-setup/ntp boolean false
 
 d-i preseed/early_command string anna-install libfuse2-udeb fuse-udeb ntfs-3g-udeb libcrypto1.1-udeb libpcre2-8-0-udeb libssl1.1-udeb libuuid1-udeb zlib1g-udeb wget-udeb
