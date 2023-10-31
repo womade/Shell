@@ -2,8 +2,8 @@
 
 ## It can reinstall Debian, Ubuntu, CentOS system with network.
 ## Default root password: @YY-ZHENG
-## Debian/Ubuntu: apt-get install -y xz-utils openssl gawk file
-## RedHat/CentOS: yum install -y xz openssl gawk file
+## Debian/Ubuntu: apt-get install -y wget xz-utils openssl gawk file
+## RedHat/CentOS: yum install -y wget xz openssl gawk file
 ## Usage: bash <(wget --no-check-certificate -qO- 'https://shell.ssss.fun/reinstall/system.sh') -d 11 -v 64 -a -p "@YY-ZHENG"
 ## Website: https://i.ssss.fun
 ## Powered By YY-ZHENG
