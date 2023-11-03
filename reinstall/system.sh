@@ -4,7 +4,7 @@
 ## Default root password: @YY-ZHENG
 ## Debian/Ubuntu: apt-get install -y wget xz-utils openssl gawk file
 ## RedHat/CentOS: yum install -y wget xz openssl gawk file
-## Usage: bash <(wget --no-check-certificate -qO- 'https://shell.ssss.fun/reinstall/system.sh') -d 11 -v 64 -a -p "@YY-ZHENG"
+## Usage: bash <(wget --no-check-certificate -qO- 'https://shell.ssss.fun/reinstall/system.sh') -d 12 -v 64 -a -p "@YY-ZHENG"
 ## Website: https://i.ssss.fun
 ## Powered By YY-ZHENG
 ## 中國遠徵提供技术支持
